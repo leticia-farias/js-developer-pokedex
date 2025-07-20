@@ -56,10 +56,6 @@ function renderPokemonDetail(pokemon) {
             </nav>
             <ul>
                 <div class="about__info">
-                    <li>Species</li>
-                    <span>sla</span>
-                </div>
-                <div class="about__info">
                     <li>Height</li>
                     <span>${pokemon.height}</span>
                 </div>
@@ -72,22 +68,6 @@ function renderPokemonDetail(pokemon) {
                     <ol class="abilities">
                     ${pokemon.abilities.map((ability) => `<li class="type ${ability}">${ability}</li>`).join('')}
                 </ol>
-                </div>
-            </ul>
-            <h3>Breeding</h3>
-            <ul>
-                <div class="about__info">
-                    <li>Gender</li>
-                    <span>sla</span>
-                </div>
-                <div class="about__info">
-                    <li>Egg Groups</li>
-                    <span>sla</span>
-                </div>
-            
-                <div class="about__info">
-                    <li>Egg Cycle</li>
-                    <span>sla</span>
                 </div>
             </ul>
         </div>
